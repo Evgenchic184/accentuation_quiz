@@ -53,3 +53,37 @@ Trying to import the above resulted in these errors:
 2024-12-04 16:38:40,906 - 192.168.78.2 - - [04/Dec/2024 16:38:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2024-12-04 16:39:06,818 - 192.168.78.2 - - [04/Dec/2024 16:39:06] "GET / HTTP/1.1" 200 -
 2024-12-04 16:41:28,572 - 192.168.78.217 - - [04/Dec/2024 16:41:28] "GET / HTTP/1.1" 200 -
+2024-12-05 21:59:31,860 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-05 21:59:31,860 - [33mPress CTRL+C to quit[0m
+2024-12-05 21:59:31,866 -  * Restarting with stat
+2024-12-05 21:59:32,691 -  * Debugger is active!
+2024-12-05 21:59:32,700 -  * Debugger PIN: 120-839-483
+2024-12-05 21:59:42,558 - 127.0.0.1 - - [05/Dec/2024 21:59:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-05 21:59:43,024 - 127.0.0.1 - - [05/Dec/2024 21:59:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-05 21:59:43,027 - 127.0.0.1 - - [05/Dec/2024 21:59:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-05 21:59:43,104 - 127.0.0.1 - - [05/Dec/2024 21:59:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-05 21:59:43,136 - 127.0.0.1 - - [05/Dec/2024 21:59:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 22:00:54,680 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-05 22:00:54,739 -  * Restarting with stat
+2024-12-05 22:00:55,688 -  * Debugger is active!
+2024-12-05 22:00:55,700 -  * Debugger PIN: 120-839-483
+2024-12-05 22:01:02,275 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-05 22:01:02,276 - [33mPress CTRL+C to quit[0m
+2024-12-05 22:01:02,277 -  * Restarting with stat
+2024-12-05 22:01:03,074 -  * Debugger is active!
+2024-12-05 22:01:03,084 -  * Debugger PIN: 120-839-483
+2024-12-05 22:01:09,768 - 127.0.0.1 - - [05/Dec/2024 22:01:09] "GET / HTTP/1.1" 200 -
+2024-12-05 22:01:09,891 - 127.0.0.1 - - [05/Dec/2024 22:01:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-05 22:01:41,532 - 127.0.0.1 - - [05/Dec/2024 22:01:41] "GET / HTTP/1.1" 200 -
+2024-12-05 22:01:59,298 - Error saving response: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2024-12-05 22:01:59,299 - 127.0.0.1 - - [05/Dec/2024 22:01:59] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -

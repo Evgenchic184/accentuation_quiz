@@ -136,11 +136,15 @@
         <form onsubmit="event.preventDefault(); submitAnswers();">
             <!-- Метаданные -->
             <div class="input-group">
-                <label for="metadata1">Enter numeric metadata 1:</label>
+                <label for="metadata1">Номер студенческого билета</label>
                 <input type="text" id="metadata1" name="metadata1" class="metadata-input" oninput="validateNumericInput(event)" required>
             </div>
             <div class="input-group">
-                <label for="metadata2">Enter numeric metadata 2:</label>
+                <label for="metadata2">Укажите номера зачетных книжек тех студентов, с которыми вы будете писать курсовую работу в этом семестре. (по ключевому предмету)
+
+Укажите их в форме через пробел.
+
+Пример записи: 037201 037202</label>
                 <input type="text" id="metadata2" name="metadata2" class="metadata-input" oninput="validateNumericInput(event)" required>
             </div>
             <hr>
