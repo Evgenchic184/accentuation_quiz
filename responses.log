@@ -1,0 +1,55 @@
+2024-12-04 16:18:43,697 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 16:18:43,697 - [33mPress CTRL+C to quit[0m
+2024-12-04 16:18:43,698 -  * Restarting with stat
+2024-12-04 16:18:44,136 -  * Debugger is active!
+2024-12-04 16:18:44,138 -  * Debugger PIN: 807-421-351
+2024-12-04 16:19:25,760 - 127.0.0.1 - - [04/Dec/2024 16:19:25] "GET / HTTP/1.1" 200 -
+2024-12-04 16:19:25,852 - 127.0.0.1 - - [04/Dec/2024 16:19:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-04 16:19:29,993 - Error saving response: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2024-12-04 16:19:29,993 - 127.0.0.1 - - [04/Dec/2024 16:19:29] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-04 16:21:01,072 - Saved response: {'question': 'What is your favorite color?', 'answer': 'Green'}
+2024-12-04 16:21:01,072 - Saved response: {'question': 'What is your favorite animal?', 'answer': 'Cat'}
+2024-12-04 16:21:01,072 - 127.0.0.1 - - [04/Dec/2024 16:21:01] "POST /submit HTTP/1.1" 200 -
+2024-12-04 16:24:27,580 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 16:24:27,580 - [33mPress CTRL+C to quit[0m
+2024-12-04 16:24:27,581 -  * Restarting with stat
+2024-12-04 16:24:28,093 -  * Debugger is active!
+2024-12-04 16:24:28,095 -  * Debugger PIN: 807-421-351
+2024-12-04 16:24:50,665 - Saved response: {'What is your favorite color?': 'Green', 'What is your favorite animal?': 'Cat'}
+2024-12-04 16:24:50,666 - 127.0.0.1 - - [04/Dec/2024 16:24:50] "POST /submit HTTP/1.1" 200 -
+2024-12-04 16:27:24,507 -  * Detected change in '/home/evgenchic174/Рабочий стол/accentuation/main.py', reloading
+2024-12-04 16:27:24,619 -  * Restarting with stat
+2024-12-04 16:27:25,110 -  * Debugger is active!
+2024-12-04 16:27:25,112 -  * Debugger PIN: 807-421-351
+2024-12-04 16:28:37,621 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 16:28:37,621 - [33mPress CTRL+C to quit[0m
+2024-12-04 16:28:37,622 -  * Restarting with stat
+2024-12-04 16:28:38,114 -  * Debugger is active!
+2024-12-04 16:28:38,117 -  * Debugger PIN: 807-421-351
+2024-12-04 16:28:41,865 - 127.0.0.1 - - [04/Dec/2024 16:28:41] "GET / HTTP/1.1" 200 -
+2024-12-04 16:31:10,191 - 127.0.0.1 - - [04/Dec/2024 16:31:10] "GET / HTTP/1.1" 200 -
+2024-12-04 16:31:44,568 -  * Detected change in '/home/evgenchic174/Рабочий стол/accentuation/main.py', reloading
+2024-12-04 16:31:44,697 -  * Restarting with stat
+2024-12-04 16:31:45,170 -  * Debugger is active!
+2024-12-04 16:31:45,172 -  * Debugger PIN: 807-421-351
+2024-12-04 16:31:45,184 - 127.0.0.1 - - [04/Dec/2024 16:31:45] "GET / HTTP/1.1" 200 -
+2024-12-04 16:32:50,472 - 127.0.0.1 - - [04/Dec/2024 16:32:50] "GET / HTTP/1.1" 200 -
+2024-12-04 16:35:59,898 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.78.153:5000
+2024-12-04 16:35:59,898 - [33mPress CTRL+C to quit[0m
+2024-12-04 16:35:59,900 -  * Restarting with stat
+2024-12-04 16:36:00,410 -  * Debugger is active!
+2024-12-04 16:36:00,412 -  * Debugger PIN: 807-421-351
+2024-12-04 16:36:21,953 - 192.168.78.217 - - [04/Dec/2024 16:36:21] "GET / HTTP/1.1" 200 -
+2024-12-04 16:36:22,950 - 192.168.78.217 - - [04/Dec/2024 16:36:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-04 16:38:40,047 - 192.168.78.2 - - [04/Dec/2024 16:38:40] "GET / HTTP/1.1" 200 -
+2024-12-04 16:38:40,906 - 192.168.78.2 - - [04/Dec/2024 16:38:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-04 16:39:06,818 - 192.168.78.2 - - [04/Dec/2024 16:39:06] "GET / HTTP/1.1" 200 -
+2024-12-04 16:41:28,572 - 192.168.78.217 - - [04/Dec/2024 16:41:28] "GET / HTTP/1.1" 200 -
