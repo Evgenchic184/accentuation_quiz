@@ -4,7 +4,7 @@ import logging
 import os
 import threading
 import numpy as np
-# ~ import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 
 # Инициализация Flask приложения
@@ -16,7 +16,7 @@ logging.basicConfig(
 	level=logging.INFO, 
 	format='%(asctime)s - %(message)s'
 )
-N_QUESTIONS = 1
+N_QUESTIONS = 13
 # Имя файла для хранения данных в Parquet
 parquet_file = 'responses.parquet'
 lock = threading.Lock()
@@ -60,22 +60,30 @@ def submit():
 	df = pd.DataFrame([row])
 
 	# Сохранение в Parquet
-	save_to_parquet(df)
+	# ~ save_to_parquet(df)
 	print(df.T)
-	columns = [i for i in range(13)]
+	columns = ["параноидальность", "эпилептоидность", "гипертимность", "истероидность", "шизоидность", "психастения", "сензитивность", "гипотим", "конформность", "неустойчивость", "астения", "лабильность", "циклоидность"]
 	df_count = df.iloc[0, :N_QUESTIONS].astype(float)
 	for i in range(len(columns)):
 		print(df_count.iloc[i::len(columns)])
 		df[columns[i]] = np.sum(df_count.iloc[i::len(columns)])
 		
-	
-	# ~ plt.plot(df[columns])
+	name_ = df['metadata1'].values[0]
+	print(name_)
+	plt.figure(figsize=(12, 6))
+	plt.plot(columns, df[columns].values.reshape(-1), "*--")
+	plt.ylim([-16, 16])
+	plt.yticks(np.arange(-16, 16))
+	plt.grid()
+	plt.title(name_)
+	plt.xticks(rotation=90)
+	plt.savefig(f"static/{name_}.png", bbox_inches='tight')
 	print(df[columns])
 	
 	# Логирование
 	logging.info(f"Saved response: {row}")
 
-	return jsonify({'status': 'success', "id": "/static/prod.jpg"}), 200
+	return jsonify({'status': 'success', "id": f"/static/{name_}.png"}), 200
 	# ~ except Exception as e:
 		# ~ logging.error(f"Error saving response: {e}")
 		# ~ return jsonify({'status': 'error', 'message': str(e)}), 500
