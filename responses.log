@@ -87,3 +87,310 @@ Trying to import the above resulted in these errors:
  - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
  - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
 2024-12-05 22:01:59,299 - 127.0.0.1 - - [05/Dec/2024 22:01:59] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-05 23:12:43,457 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-05 23:12:43,457 - [33mPress CTRL+C to quit[0m
+2024-12-05 23:12:43,460 -  * Restarting with stat
+2024-12-05 23:12:44,338 -  * Debugger is active!
+2024-12-05 23:12:44,348 -  * Debugger PIN: 120-839-483
+2024-12-05 23:12:46,844 - 127.0.0.1 - - [05/Dec/2024 23:12:46] "GET / HTTP/1.1" 200 -
+2024-12-05 23:12:58,247 - Error saving response: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2024-12-05 23:12:58,247 - 127.0.0.1 - - [05/Dec/2024 23:12:58] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:21:18,817 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:21:18,817 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:21:18,817 -  * Restarting with stat
+2024-12-07 14:21:19,745 -  * Debugger is active!
+2024-12-07 14:21:19,760 -  * Debugger PIN: 120-839-483
+2024-12-07 14:21:43,598 - 127.0.0.1 - - [07/Dec/2024 14:21:43] "GET / HTTP/1.1" 200 -
+2024-12-07 14:21:43,731 - 127.0.0.1 - - [07/Dec/2024 14:21:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-07 14:21:50,549 - Error saving response: name 'np' is not defined
+2024-12-07 14:21:50,549 - 127.0.0.1 - - [07/Dec/2024 14:21:50] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:22:41,527 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:22:41,527 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:22:41,527 -  * Restarting with stat
+2024-12-07 14:22:42,447 -  * Debugger is active!
+2024-12-07 14:22:42,461 -  * Debugger PIN: 120-839-483
+2024-12-07 14:22:42,478 - 127.0.0.1 - - [07/Dec/2024 14:22:42] "GET / HTTP/1.1" 200 -
+2024-12-07 14:22:45,658 - Saved response: {'Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'Мне не раз приходилось убеждаться, что дружат из выгоды': None, 'Я всегда чувствую себя бодрым и полным сил. Как правило, настроение у меня хорошее': None, 'Мое самочувствие очень зависит от того, как относятся ко мне окружающие': None, 'Мое настроение улучшается, когда меня оставляют одного': None, 'Я не могу спокойно спать, если утром надо вставать в определенный час, я слишком мнителен, без конца тревожусь и беспокоюсь обо всем': None, 'Малейшие неприятности сильно огорчают меня, после огорчений и беспокойств возникает плохое самочувствие': None, 'У меня плохой и беспокойный сон, часто бывают мучительно-тоскливые сновидения, утро для меня самое тяжелое время суток': None, 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 14:22:45.528758')}
+2024-12-07 14:22:45,658 - 127.0.0.1 - - [07/Dec/2024 14:22:45] "POST /submit HTTP/1.1" 200 -
+2024-12-07 14:23:31,796 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:23:31,874 -  * Restarting with stat
+2024-12-07 14:23:32,813 -  * Debugger is active!
+2024-12-07 14:23:32,828 -  * Debugger PIN: 120-839-483
+2024-12-07 14:23:41,873 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:23:41,935 -  * Restarting with stat
+2024-12-07 14:23:42,890 -  * Debugger is active!
+2024-12-07 14:23:42,905 -  * Debugger PIN: 120-839-483
+2024-12-07 14:23:47,542 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:23:47,542 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:23:47,542 -  * Restarting with stat
+2024-12-07 14:23:48,496 -  * Debugger is active!
+2024-12-07 14:23:48,512 -  * Debugger PIN: 120-839-483
+2024-12-07 14:23:49,845 - 127.0.0.1 - - [07/Dec/2024 14:23:49] "GET / HTTP/1.1" 200 -
+2024-12-07 14:24:07,255 - Error saving response: can only concatenate str (not "Timestamp") to str
+2024-12-07 14:24:07,255 - 127.0.0.1 - - [07/Dec/2024 14:24:07] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:25:21,990 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:25:22,083 -  * Restarting with stat
+2024-12-07 14:25:22,991 -  * Debugger is active!
+2024-12-07 14:25:23,007 -  * Debugger PIN: 120-839-483
+2024-12-07 14:25:27,048 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:25:27,111 -  * Restarting with stat
+2024-12-07 14:25:28,135 -  * Debugger is active!
+2024-12-07 14:25:28,168 -  * Debugger PIN: 120-839-483
+2024-12-07 14:25:34,333 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:25:34,333 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:25:34,333 -  * Restarting with stat
+2024-12-07 14:25:35,446 -  * Debugger is active!
+2024-12-07 14:25:35,459 -  * Debugger PIN: 120-839-483
+2024-12-07 14:25:36,697 - Error saving response: can only concatenate str (not "Timestamp") to str
+2024-12-07 14:25:36,697 - 127.0.0.1 - - [07/Dec/2024 14:25:36] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:26:50,216 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:26:50,278 -  * Restarting with stat
+2024-12-07 14:26:51,396 -  * Debugger is active!
+2024-12-07 14:26:51,396 -  * Debugger PIN: 120-839-483
+2024-12-07 14:26:52,516 - 127.0.0.1 - - [07/Dec/2024 14:26:52] "GET / HTTP/1.1" 200 -
+2024-12-07 14:26:58,833 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:26:58,833 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:26:58,833 -  * Restarting with stat
+2024-12-07 14:26:59,803 -  * Debugger is active!
+2024-12-07 14:26:59,803 -  * Debugger PIN: 120-839-483
+2024-12-07 14:27:14,356 - Error saving response: can only concatenate str (not "Timestamp") to str
+2024-12-07 14:27:14,357 - 127.0.0.1 - - [07/Dec/2024 14:27:14] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:29:01,217 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:29:01,217 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:29:01,217 -  * Restarting with stat
+2024-12-07 14:29:02,239 -  * Debugger is active!
+2024-12-07 14:29:02,255 -  * Debugger PIN: 120-839-483
+2024-12-07 14:29:03,962 - Error saving response: Too many indexers
+2024-12-07 14:29:03,963 - 127.0.0.1 - - [07/Dec/2024 14:29:03] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:29:32,123 - 127.0.0.1 - - [07/Dec/2024 14:29:32] "GET / HTTP/1.1" 200 -
+2024-12-07 14:29:46,771 - Error saving response: Too many indexers
+2024-12-07 14:29:46,771 - 127.0.0.1 - - [07/Dec/2024 14:29:46] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:30:49,557 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:30:49,619 -  * Restarting with stat
+2024-12-07 14:30:50,673 -  * Debugger is active!
+2024-12-07 14:30:50,689 -  * Debugger PIN: 120-839-483
+2024-12-07 14:30:52,528 - Error saving response: Too many indexers
+2024-12-07 14:30:52,528 - 127.0.0.1 - - [07/Dec/2024 14:30:52] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:30:57,471 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:30:57,471 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:30:57,483 -  * Restarting with stat
+2024-12-07 14:30:58,368 -  * Debugger is active!
+2024-12-07 14:30:58,384 -  * Debugger PIN: 120-839-483
+2024-12-07 14:30:59,818 - Error saving response: Too many indexers
+2024-12-07 14:30:59,818 - 127.0.0.1 - - [07/Dec/2024 14:30:59] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:31:32,717 - Error saving response: Too many indexers
+2024-12-07 14:31:32,717 - 127.0.0.1 - - [07/Dec/2024 14:31:32] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:32:16,729 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:32:16,745 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:32:16,745 -  * Restarting with stat
+2024-12-07 14:32:17,630 -  * Debugger is active!
+2024-12-07 14:32:17,646 -  * Debugger PIN: 120-839-483
+2024-12-07 14:32:19,563 - Error saving response: Too many indexers
+2024-12-07 14:32:19,564 - 127.0.0.1 - - [07/Dec/2024 14:32:19] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:32:48,944 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:32:49,021 -  * Restarting with stat
+2024-12-07 14:32:50,034 -  * Debugger is active!
+2024-12-07 14:32:50,050 -  * Debugger PIN: 120-839-483
+2024-12-07 14:32:53,194 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:32:53,194 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:32:53,194 -  * Restarting with stat
+2024-12-07 14:32:54,197 -  * Debugger is active!
+2024-12-07 14:32:54,197 -  * Debugger PIN: 120-839-483
+2024-12-07 14:32:54,297 - 127.0.0.1 - - [07/Dec/2024 14:32:54] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:33:26,534 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:33:26,612 -  * Restarting with stat
+2024-12-07 14:33:29,378 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:33:29,378 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:33:29,378 -  * Restarting with stat
+2024-12-07 14:33:30,360 -  * Debugger is active!
+2024-12-07 14:33:30,376 -  * Debugger PIN: 120-839-483
+2024-12-07 14:33:32,761 - 127.0.0.1 - - [07/Dec/2024 14:33:32] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2024-12-07 14:33:46,548 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:33:46,627 -  * Restarting with stat
+2024-12-07 14:33:47,611 -  * Debugger is active!
+2024-12-07 14:33:47,627 -  * Debugger PIN: 120-839-483
+2024-12-07 14:34:10,831 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:34:10,894 -  * Restarting with stat
+2024-12-07 14:34:11,893 -  * Debugger is active!
+2024-12-07 14:34:11,909 -  * Debugger PIN: 120-839-483
+2024-12-07 14:34:18,782 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:34:18,782 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:34:18,782 -  * Restarting with stat
+2024-12-07 14:34:19,752 -  * Debugger is active!
+2024-12-07 14:34:19,810 -  * Debugger PIN: 120-839-483
+2024-12-07 14:34:21,586 - 127.0.0.1 - - [07/Dec/2024 14:34:21] "GET / HTTP/1.1" 200 -
+2024-12-07 14:34:46,555 - Saved response: {'Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '-2', 'Мне не раз приходилось убеждаться, что дружат из выгоды': '-1', 'Я всегда чувствую себя бодрым и полным сил. Как правило, настроение у меня хорошее': '0', 'Мое самочувствие очень зависит от того, как относятся ко мне окружающие': '1', 'Мое настроение улучшается, когда меня оставляют одного': '2', 'Я не могу спокойно спать, если утром надо вставать в определенный час, я слишком мнителен, без конца тревожусь и беспокоюсь обо всем': '1', 'Малейшие неприятности сильно огорчают меня, после огорчений и беспокойств возникает плохое самочувствие': '0', 'У меня плохой и беспокойный сон, часто бывают мучительно-тоскливые сновидения, утро для меня самое тяжелое время суток': '-1', 'Мое настроение обычно такое же, как у окружающих меня людей': '-2', 'О друзьях, с кем пришлось расстаться, я долго не скучаю и быстро нахожу новых': '-1', 'Я плохо сплю ночью и чувствую сонливость днем, часто бываю раздражителен': '0', 'Мое настроение легко меняется от незначительных причин': '1', 'Недели хорошего самочувствия чередуются у меня с неделями, когда я чувствую себя плохо': '2', 'Я считаю, что у человека должна быть большая и серьезная цель, ради которой стоит жить': '1', 'У меня случаются приступы плохого самочувствия с раздражительностью и чувством тоски': '0', 'Я сплю мало, но утром встаю бодрым и энергичным': '-1', 'Мое настроение очень зависит от общества, в котором я нахожусь': '-2', 'Никогда не следую общей моде, а ношу то, что мне больше всего понравилось': '-1', 'Плохое настроение появляется у меня от волнений и ожидания неприятностей': '0', 'Нередко я стесняюсь есть при посторонних людях, я чрезмерно чувствителен': '1', 'Всегда боюсь, что мне не хватит денег и очень не люблю брать в долг': '2', 'Я считаю, что самому не следует выделяться среди окружающих': '1', 'Я легко завожу новые знакомства': '0', 'О своей одежде я мало думаю': '-1', 'В одни дни я встаю жизнерадостным и веселым, в другие - без всякой причины угнетен и уныл': '-2', 'Периодами у меня бывает волчий аппетит, периодами - ничего есть не хочется': '-1', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 14:34:46.514838')}
+2024-12-07 14:34:46,555 - 127.0.0.1 - - [07/Dec/2024 14:34:46] "POST /submit HTTP/1.1" 200 -
+2024-12-07 14:35:11,388 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:35:11,451 -  * Restarting with stat
+2024-12-07 14:35:12,388 -  * Debugger is active!
+2024-12-07 14:35:12,404 -  * Debugger PIN: 120-839-483
+2024-12-07 14:35:16,780 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:35:16,780 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:35:16,795 -  * Restarting with stat
+2024-12-07 14:35:17,774 -  * Debugger is active!
+2024-12-07 14:35:17,774 -  * Debugger PIN: 120-839-483
+2024-12-07 14:35:18,724 - Saved response: {'Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '-2', 'Мне не раз приходилось убеждаться, что дружат из выгоды': '-1', 'Я всегда чувствую себя бодрым и полным сил. Как правило, настроение у меня хорошее': '0', 'Мое самочувствие очень зависит от того, как относятся ко мне окружающие': '1', 'Мое настроение улучшается, когда меня оставляют одного': '2', 'Я не могу спокойно спать, если утром надо вставать в определенный час, я слишком мнителен, без конца тревожусь и беспокоюсь обо всем': '1', 'Малейшие неприятности сильно огорчают меня, после огорчений и беспокойств возникает плохое самочувствие': '0', 'У меня плохой и беспокойный сон, часто бывают мучительно-тоскливые сновидения, утро для меня самое тяжелое время суток': '-1', 'Мое настроение обычно такое же, как у окружающих меня людей': '-2', 'О друзьях, с кем пришлось расстаться, я долго не скучаю и быстро нахожу новых': '-1', 'Я плохо сплю ночью и чувствую сонливость днем, часто бываю раздражителен': '0', 'Мое настроение легко меняется от незначительных причин': '1', 'Недели хорошего самочувствия чередуются у меня с неделями, когда я чувствую себя плохо': '2', 'Я считаю, что у человека должна быть большая и серьезная цель, ради которой стоит жить': '1', 'У меня случаются приступы плохого самочувствия с раздражительностью и чувством тоски': '0', 'Я сплю мало, но утром встаю бодрым и энергичным': '-1', 'Мое настроение очень зависит от общества, в котором я нахожусь': '-2', 'Никогда не следую общей моде, а ношу то, что мне больше всего понравилось': '-1', 'Плохое настроение появляется у меня от волнений и ожидания неприятностей': '0', 'Нередко я стесняюсь есть при посторонних людях, я чрезмерно чувствителен': '1', 'Всегда боюсь, что мне не хватит денег и очень не люблю брать в долг': '2', 'Я считаю, что самому не следует выделяться среди окружающих': '1', 'Я легко завожу новые знакомства': '0', 'О своей одежде я мало думаю': '-1', 'В одни дни я встаю жизнерадостным и веселым, в другие - без всякой причины угнетен и уныл': '-2', 'Периодами у меня бывает волчий аппетит, периодами - ничего есть не хочется': '-1', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 14:35:18.674681')}
+2024-12-07 14:35:18,724 - 127.0.0.1 - - [07/Dec/2024 14:35:18] "POST /submit HTTP/1.1" 200 -
+2024-12-07 14:36:52,571 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:36:52,571 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:36:52,571 -  * Restarting with stat
+2024-12-07 14:36:53,493 -  * Debugger is active!
+2024-12-07 14:36:53,509 -  * Debugger PIN: 120-839-483
+2024-12-07 14:36:55,358 - 127.0.0.1 - - [07/Dec/2024 14:36:55] "GET / HTTP/1.1" 200 -
+2024-12-07 14:37:05,619 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:37:05,697 -  * Restarting with stat
+2024-12-07 14:37:09,823 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:37:09,823 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:37:09,823 -  * Restarting with stat
+2024-12-07 14:37:10,882 -  * Debugger is active!
+2024-12-07 14:37:10,898 -  * Debugger PIN: 120-839-483
+2024-12-07 14:37:11,653 - 127.0.0.1 - - [07/Dec/2024 14:37:11] "GET / HTTP/1.1" 200 -
+2024-12-07 14:37:40,068 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '-2', '2. Мне не раз приходилось убеждаться, что дружат из выгоды': '-1', '3. Я всегда чувствую себя бодрым и полным сил. Как правило, настроение у меня хорошее': '0', '4. Мое самочувствие очень зависит от того, как относятся ко мне окружающие': '1', '5. Мое настроение улучшается, когда меня оставляют одного': '2', '6. Я не могу спокойно спать, если утром надо вставать в определенный час, я слишком мнителен, без конца тревожусь и беспокоюсь обо всем': '1', '7. Малейшие неприятности сильно огорчают меня, после огорчений и беспокойств возникает плохое самочувствие': '2', '8. У меня плохой и беспокойный сон, часто бывают мучительно-тоскливые сновидения, утро для меня самое тяжелое время суток': '0', '9. Мое настроение обычно такое же, как у окружающих меня людей': '1', '10. О друзьях, с кем пришлось расстаться, я долго не скучаю и быстро нахожу новых': '0', '11. Я плохо сплю ночью и чувствую сонливость днем, часто бываю раздражителен': '-2', '12. Мое настроение легко меняется от незначительных причин': '-1', '13. Недели хорошего самочувствия чередуются у меня с неделями, когда я чувствую себя плохо': '1', '14. Я считаю, что у человека должна быть большая и серьезная цель, ради которой стоит жить': '-1', '15. У меня случаются приступы плохого самочувствия с раздражительностью и чувством тоски': '1', '16. Я сплю мало, но утром встаю бодрым и энергичным': '0', '17. Мое настроение очень зависит от общества, в котором я нахожусь': '-2', '18. Никогда не следую общей моде, а ношу то, что мне больше всего понравилось': '-2', '19. Плохое настроение появляется у меня от волнений и ожидания неприятностей': '2', '20. Нередко я стесняюсь есть при посторонних людях, я чрезмерно чувствителен': '2', '21. Всегда боюсь, что мне не хватит денег и очень не люблю брать в долг': '0', '22. Я считаю, что самому не следует выделяться среди окружающих': '1', '23. Я легко завожу новые знакомства': '1', '24. О своей одежде я мало думаю': '0', '25. В одни дни я встаю жизнерадостным и веселым, в другие - без всякой причины угнетен и уныл': '1', '26. Периодами у меня бывает волчий аппетит, периодами - ничего есть не хочется': '1', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 14:37:40.018999')}
+2024-12-07 14:37:40,068 - 127.0.0.1 - - [07/Dec/2024 14:37:40] "POST /submit HTTP/1.1" 200 -
+2024-12-07 14:39:11,037 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:39:11,115 -  * Restarting with stat
+2024-12-07 14:39:12,035 -  * Debugger is active!
+2024-12-07 14:39:12,051 -  * Debugger PIN: 120-839-483
+2024-12-07 14:39:28,208 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:39:28,280 -  * Restarting with stat
+2024-12-07 14:51:29,700 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-12-07 14:51:29,700 - [33mPress CTRL+C to quit[0m
+2024-12-07 14:51:29,700 -  * Restarting with stat
+2024-12-07 14:51:30,863 -  * Debugger is active!
+2024-12-07 14:51:30,863 -  * Debugger PIN: 120-839-483
+2024-12-07 14:51:31,487 - 127.0.0.1 - - [07/Dec/2024 14:51:31] "GET / HTTP/1.1" 200 -
+2024-12-07 14:51:33,953 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '0', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 14:51:33.904381')}
+2024-12-07 14:51:33,954 - 127.0.0.1 - - [07/Dec/2024 14:51:33] "POST /submit HTTP/1.1" 200 -
+2024-12-07 14:51:45,403 - 127.0.0.1 - - [07/Dec/2024 14:51:45] "GET / HTTP/1.1" 200 -
+2024-12-07 14:52:39,423 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'metadata1': '', 'metadata2': '', 'timestamp': Timestamp('2024-12-07 14:52:39.373287')}
+2024-12-07 14:52:39,424 - 127.0.0.1 - - [07/Dec/2024 14:52:39] "POST /submit HTTP/1.1" 200 -
+2024-12-07 14:55:19,813 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:55:19,876 -  * Restarting with stat
+2024-12-07 14:55:21,077 -  * Debugger is active!
+2024-12-07 14:55:21,088 -  * Debugger PIN: 120-839-483
+2024-12-07 14:55:23,905 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'metadata1': '', 'metadata2': '', 'timestamp': Timestamp('2024-12-07 14:55:23.867518')}
+2024-12-07 14:55:23,905 - 127.0.0.1 - - [07/Dec/2024 14:55:23] "[1mPOST /submit HTTP/1.1[0m" 123541 -
+2024-12-07 14:55:37,455 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'metadata1': '', 'metadata2': '', 'timestamp': Timestamp('2024-12-07 14:55:37.393844')}
+2024-12-07 14:55:37,456 - 127.0.0.1 - - [07/Dec/2024 14:55:37] "[1mPOST /submit HTTP/1.1[0m" 123541 -
+2024-12-07 14:55:51,162 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '1', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 14:55:51.131136')}
+2024-12-07 14:55:51,162 - 127.0.0.1 - - [07/Dec/2024 14:55:51] "[1mPOST /submit HTTP/1.1[0m" 123541 -
+2024-12-07 14:55:56,085 - 127.0.0.1 - - [07/Dec/2024 14:55:56] "GET / HTTP/1.1" 200 -
+2024-12-07 14:55:58,578 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'metadata1': '', 'metadata2': '', 'timestamp': Timestamp('2024-12-07 14:55:58.545858')}
+2024-12-07 14:55:58,578 - 127.0.0.1 - - [07/Dec/2024 14:55:58] "[1mPOST /submit HTTP/1.1[0m" 123541 -
+2024-12-07 14:56:12,528 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 14:56:12,591 -  * Restarting with stat
+2024-12-07 14:56:13,508 -  * Debugger is active!
+2024-12-07 14:56:13,523 -  * Debugger PIN: 120-839-483
+2024-12-07 14:56:14,630 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'metadata1': '', 'metadata2': '', 'timestamp': Timestamp('2024-12-07 14:56:14.579965')}
+2024-12-07 14:56:14,631 - 127.0.0.1 - - [07/Dec/2024 14:56:14] "POST /submit HTTP/1.1" 200 -
+2024-12-07 14:59:56,439 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'metadata1': '', 'metadata2': '', 'timestamp': Timestamp('2024-12-07 14:59:56.411849')}
+2024-12-07 14:59:56,439 - 127.0.0.1 - - [07/Dec/2024 14:59:56] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:00:48,738 - 127.0.0.1 - - [07/Dec/2024 15:00:48] "GET / HTTP/1.1" 200 -
+2024-12-07 15:00:52,092 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': None, 'metadata1': '', 'metadata2': '', 'timestamp': Timestamp('2024-12-07 15:00:52.062053')}
+2024-12-07 15:00:52,092 - 127.0.0.1 - - [07/Dec/2024 15:00:52] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:00:59,537 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '0', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 15:00:59.504317')}
+2024-12-07 15:00:59,537 - 127.0.0.1 - - [07/Dec/2024 15:00:59] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:00:59,550 - 127.0.0.1 - - [07/Dec/2024 15:00:59] "[33mGET /123 HTTP/1.1[0m" 404 -
+2024-12-07 15:02:26,875 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 15:02:26,937 -  * Restarting with stat
+2024-12-07 15:02:27,946 -  * Debugger is active!
+2024-12-07 15:02:27,962 -  * Debugger PIN: 120-839-483
+2024-12-07 15:02:31,298 - 127.0.0.1 - - [07/Dec/2024 15:02:31] "GET / HTTP/1.1" 200 -
+2024-12-07 15:02:33,927 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '0', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 15:02:33.885190')}
+2024-12-07 15:02:33,928 - 127.0.0.1 - - [07/Dec/2024 15:02:33] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:02:33,942 - 127.0.0.1 - - [07/Dec/2024 15:02:33] "[33mGET /img/prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:02:48,975 - 127.0.0.1 - - [07/Dec/2024 15:02:48] "[33mGET /img/prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:03:26,598 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 15:03:26,676 -  * Restarting with stat
+2024-12-07 15:03:27,773 -  * Debugger is active!
+2024-12-07 15:03:27,789 -  * Debugger PIN: 120-839-483
+2024-12-07 15:03:38,440 - 127.0.0.1 - - [07/Dec/2024 15:03:38] "[33mGET /img/prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:03:41,739 - 127.0.0.1 - - [07/Dec/2024 15:03:41] "GET / HTTP/1.1" 200 -
+2024-12-07 15:03:44,649 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '0', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 15:03:44.616296')}
+2024-12-07 15:03:44,649 - 127.0.0.1 - - [07/Dec/2024 15:03:44] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:03:44,666 - 127.0.0.1 - - [07/Dec/2024 15:03:44] "[33mGET /img/prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:04:31,314 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 15:04:31,377 -  * Restarting with stat
+2024-12-07 15:04:32,377 -  * Debugger is active!
+2024-12-07 15:04:32,377 -  * Debugger PIN: 120-839-483
+2024-12-07 15:04:37,224 - 127.0.0.1 - - [07/Dec/2024 15:04:37] "GET / HTTP/1.1" 200 -
+2024-12-07 15:04:39,598 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '0', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 15:04:39.564249')}
+2024-12-07 15:04:39,598 - 127.0.0.1 - - [07/Dec/2024 15:04:39] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:04:39,614 - 127.0.0.1 - - [07/Dec/2024 15:04:39] "[33mGET /img/prod.jpg/ HTTP/1.1[0m" 404 -
+2024-12-07 15:04:52,778 - 127.0.0.1 - - [07/Dec/2024 15:04:52] "GET / HTTP/1.1" 200 -
+2024-12-07 15:04:56,365 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '-1', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 15:04:56.332224')}
+2024-12-07 15:04:56,365 - 127.0.0.1 - - [07/Dec/2024 15:04:56] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:04:56,381 - 127.0.0.1 - - [07/Dec/2024 15:04:56] "[33mGET /img/prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:05:04,739 - 127.0.0.1 - - [07/Dec/2024 15:05:04] "[33mGET /img/prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:05:52,859 - 127.0.0.1 - - [07/Dec/2024 15:05:52] "[33mGET /prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:05:59,979 - 127.0.0.1 - - [07/Dec/2024 15:05:59] "[33mGET /quiz.html HTTP/1.1[0m" 404 -
+2024-12-07 15:06:02,940 - 127.0.0.1 - - [07/Dec/2024 15:06:02] "GET / HTTP/1.1" 200 -
+2024-12-07 15:06:06,930 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '0', 'metadata1': '1', 'metadata2': '2', 'timestamp': Timestamp('2024-12-07 15:06:06.898788')}
+2024-12-07 15:06:06,930 - 127.0.0.1 - - [07/Dec/2024 15:06:06] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:06:06,946 - 127.0.0.1 - - [07/Dec/2024 15:06:06] "[33mGET /img/prod.jpg HTTP/1.1[0m" 404 -
+2024-12-07 15:07:13,864 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 15:07:13,939 -  * Restarting with stat
+2024-12-07 15:07:15,004 -  * Debugger is active!
+2024-12-07 15:07:15,015 -  * Debugger PIN: 120-839-483
+2024-12-07 15:10:10,183 -  * Detected change in 'D:\\local python\\projects\\accentuation_quiz\\main.py', reloading
+2024-12-07 15:10:10,261 -  * Restarting with stat
+2024-12-07 15:10:11,370 -  * Debugger is active!
+2024-12-07 15:10:11,380 -  * Debugger PIN: 120-839-483
+2024-12-07 15:10:28,063 - 127.0.0.1 - - [07/Dec/2024 15:10:28] "GET / HTTP/1.1" 200 -
+2024-12-07 15:10:31,663 - Saved response: {'1. Я никогда не доверяю незнакомым людям и не раз убеждался, что в этом я прав': '0', 'metadata1': '1', 'metadata2': '1', 'timestamp': Timestamp('2024-12-07 15:10:31.629085')}
+2024-12-07 15:10:31,664 - 127.0.0.1 - - [07/Dec/2024 15:10:31] "POST /submit HTTP/1.1" 200 -
+2024-12-07 15:10:31,931 - 127.0.0.1 - - [07/Dec/2024 15:10:31] "GET /static/prod.jpg HTTP/1.1" 200 -
+2024-12-07 15:10:39,690 - 127.0.0.1 - - [07/Dec/2024 15:10:39] "GET / HTTP/1.1" 200 -

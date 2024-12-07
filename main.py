@@ -1,8 +1,11 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
 import pandas as pd
 import logging
 import os
 import threading
+import numpy as np
+# ~ import matplotlib.pyplot as plt
+
 
 # Инициализация Flask приложения
 app = Flask(__name__)
@@ -13,7 +16,7 @@ logging.basicConfig(
 	level=logging.INFO, 
 	format='%(asctime)s - %(message)s'
 )
-
+N_QUESTIONS = 1
 # Имя файла для хранения данных в Parquet
 parquet_file = 'responses.parquet'
 lock = threading.Lock()
@@ -27,6 +30,7 @@ def save_to_parquet(data):
 		else:
 			updated_data = data
 		updated_data.to_parquet(parquet_file, index=False)
+		updated_data.to_excel("responses.xlsx", index=False)
 
 @app.route('/')
 def quiz():
@@ -34,37 +38,47 @@ def quiz():
 	with open("quest.txt",encoding='utf-8') as f:
 		questions = [
 			{
-				'question': i.strip(),
+				'question': f"{x + 1}. {i.strip()}",
 				'options': [-2, -1, 0, 1, 2]
-			} for i in f.readlines()
+			} for x, i in enumerate(f.readlines()[:N_QUESTIONS])
 		]
 	return render_template('quiz.html', questions=questions)
 
 @app.route('/submit', methods=['POST'])
 def submit():
 	"""Обрабатывает ответы и метаданные, сохраняет их в Parquet и логирует."""
-	try:
-		data = request.json
-		metadata = data.get('metadata', {})
-		responses = data.get('responses', [])
+	# ~ try:
+	data = request.json
+	metadata = data.get('metadata', {})
+	responses = data.get('responses', [])
 
-		# Объединяем метаданные и ответы в одну строку
-		row = {response['question']: response['answer'] for response in responses}
-		row.update(metadata)
-		row['timestamp'] = pd.Timestamp.now()
+	# Объединяем метаданные и ответы в одну строку
+	row = {response['question']: response['answer'] for response in responses}
+	row.update(metadata)
+	row['timestamp'] = pd.Timestamp.now()
 
-		df = pd.DataFrame([row])
+	df = pd.DataFrame([row])
 
-		# Сохранение в Parquet
-		save_to_parquet(df)
+	# Сохранение в Parquet
+	save_to_parquet(df)
+	print(df.T)
+	columns = [i for i in range(13)]
+	df_count = df.iloc[0, :N_QUESTIONS].astype(float)
+	for i in range(len(columns)):
+		print(df_count.iloc[i::len(columns)])
+		df[columns[i]] = np.sum(df_count.iloc[i::len(columns)])
+		
+	
+	# ~ plt.plot(df[columns])
+	print(df[columns])
+	
+	# Логирование
+	logging.info(f"Saved response: {row}")
 
-		# Логирование
-		logging.info(f"Saved response: {row}")
-
-		return jsonify({'status': 'success'}), 200
-	except Exception as e:
-		logging.error(f"Error saving response: {e}")
-		return jsonify({'status': 'error', 'message': str(e)}), 500
+	return jsonify({'status': 'success', "id": "/static/prod.jpg"}), 200
+	# ~ except Exception as e:
+		# ~ logging.error(f"Error saving response: {e}")
+		# ~ return jsonify({'status': 'error', 'message': str(e)}), 500
 		
 
 if __name__ == '__main__':

@@ -123,7 +123,9 @@
             });
 
             if (response.ok) {
-                alert('Responses submitted successfully!');
+                a = document.querySelector("body");
+                tmp = await response.json();
+                a.innerHTML = "<img src="+ tmp['id'] +" />";
             } else {
                 alert('Error submitting responses.');
             }
