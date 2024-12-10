@@ -68,12 +68,12 @@ def submit():
 		print(df_count.iloc[i::len(columns)])
 		df[columns[i]] = np.sum(df_count.iloc[i::len(columns)])
 		
-	name_ = df['metadata1'].values[0]
+	name_ = df['metadata1'].values[0][:16]
 	print(name_)
 	plt.figure(figsize=(12, 6))
 	plt.plot(columns, df[columns].values.reshape(-1), "*--")
 	plt.ylim([-16, 16])
-	plt.yticks(np.arange(-16, 16))
+	plt.yticks(np.arange(-16, 17))
 	plt.grid()
 	plt.title(name_)
 	plt.xticks(rotation=90)
