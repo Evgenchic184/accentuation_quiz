@@ -16,7 +16,7 @@ logging.basicConfig(
 	level=logging.INFO, 
 	format='%(asctime)s - %(message)s'
 )
-N_QUESTIONS = 13
+N_QUESTIONS = 104
 # Имя файла для хранения данных в Parquet
 parquet_file = 'responses.parquet'
 lock = threading.Lock()
